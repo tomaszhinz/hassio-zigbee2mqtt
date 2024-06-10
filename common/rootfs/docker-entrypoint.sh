@@ -60,7 +60,7 @@ EOF
 fi
 
 export NODE_PATH=/app/node_modules
-export ZIGBEE2MQTT_CONFIG_FRONTEND='{"port": 8099}'
+export ZIGBEE2MQTT_CONFIG_FRONTEND='{"port": 8098}'
 
 if bashio::config.true 'disable_tuya_default_response'; then
     bashio::log.info "Disabling TuYa default responses"
