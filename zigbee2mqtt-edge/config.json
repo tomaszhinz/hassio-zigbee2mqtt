@@ -27,11 +27,11 @@
   ],
   "ports": {
     "8485/tcp": 8485,
-    "8099/tcp": null
+    "8098/tcp": null
   },
   "ports_description": {
     "8485/tcp": "Socat tcp-listen port",
-    "8099/tcp": "Frontend tcp-listen port"
+    "8098/tcp": "Frontend tcp-listen port"
   },
   "options": {
     "data_path": "/config/zigbee2mqtt",
